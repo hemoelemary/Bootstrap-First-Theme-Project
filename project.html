@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElemaryLanding</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Galindo&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+<style>
+        .top{
+            padding:20px;
+            background-color: #33324e;
+        }
+        .email,.address{
+            color:white;
+            margin-right: 30px;
+        }
+        *{
+            transition:all 1s;
+        }
+        i{
+            margin:5px;
+            color:white;
+        }
+        li{
+            list-style: none;
+            margin:10px;
+        }
+        .fs-4{
+            color:#33324e;
+            
+        }
+        a{
+            text-decoration: none;
+        }
+        .link-hamoda{
+            color:#6c757d;
+            transition:color 0.2s ease;
+        }
+        .link-hamoda:hover{
+            color:#0d6efd;
+        }
+        .heroimg{
+            background-image: url('https://themesdesign.in/lizehen/layouts/images/features/img-2.png');
+            height:300px;
+            width:600px;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            margin-right: 50px;
+        }
+        .logo1{
+            background-image: url('https://themesdesign.in/lizehen/layouts/images/clients/1.png');
+            height:100px;
+            width:150px;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            margin-right: 30px;
+        }
+        .logo2{
+            background-image: url('https://themesdesign.in/lizehen/layouts/images/clients/2.png');
+            height:100px;
+            width:150px;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            margin-right: 30px;
+        }
+        .logo3{
+            background-image: url('https://themesdesign.in/lizehen/layouts/images/clients/3.png');
+            height:100px;
+            width:120px;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            margin-right: 30px;
+        }
+        .logo4{
+            background-image: url('https://themesdesign.in/lizehen/layouts/images/clients/4.png');
+            height:100px;
+            width:120px;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        .subtitle,.title{
+           background-color:rgba(67, 83, 255, .2);
+        }
+        .galindo{
+            font-family: "Galindo", sans-serif;
+            font-weight: 400;
+        }
+        .tiny{
+            display:block;
+            min-width: 50px;
+            max-width: 100px;
+        }
+        .serviceimg{
+            background-image: url('https://themesdesign.in/lizehen/layouts/images/features/img-4.png');
+            height:200px;
+            width:200px;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: contain;
+
+        }
+        nav{
+            position:sticky;
+            top:0;
+            left:0;
+            z-index:1;
+        }
+        .card:hover{
+            border-color: rgb(13, 110, 253) !important;
+;
+        }
+        .card-img-top{
+            background-image: url('https://scontent.fcai21-3.fna.fbcdn.net/v/t39.30808-1/748161131_1040949138907856_8210077106974372134_n.jpg?stp=dst-jpg_tt6&cstp=mx720x723&ctp=p160x160&_nc_cat=105&ccb=1-7&_nc_sid=1d2534&_nc_ohc=lwRTLAWhoz4Q7kNvwEgWC5J&_nc_oc=Adr26wrjK8me5hUijuAVlTmT1EuKubMy583I_NKnGTmLxDwpm1fEHCU7-Tw9NRHgtiM&_nc_zt=24&_nc_ht=scontent.fcai21-3.fna&_nc_gid=-ff0WIm7kkW-RUvbzAEcXQ&_nc_ss=7b2a8&oh=00_AQBuGaioBCRYppLxjVorW_sLA9fb7qxJBrDwCFAR8e2XdQ&oe=6A6A9CAE');
+            height:150px;
+            width:150px;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            margin-top:20px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="top container-fluid d-none d-sm-block">
+            <div class="row">
+                <div class="col-9">
+                    <div class="d-flex justify-content-flex-start">
+                        <div class="email fw-lighter"><i class="fa-regular fa-envelope"></i>darelemary@gmail.com</div>
+                        <div class="address fw-lighter"><i class="fa-solid fa-earth-africa"></i>Damietta Al-Aasr</div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="d-flex justify-content-evenly">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <nav class="pt-3 px-3 d-flex flex-wrap">
+            <div class="flex-grow-1">
+                <div class="fs-4 fw-bolder text-center text-sm-start">Hamoda Elemary</div>
+            </div>
+            <ul class="d-flex justify-content-center m-auto p-0">
+                <li><a href="" class="link-hamoda">Home</a></li>
+                <li><a href="" class="link-hamoda">Services</a></li>
+                <li><a href="" class="link-hamoda">Pricing</a></li>
+                <li><a href="" class="link-hamoda">Team</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="mt-4">
+            <div class="d-flex flex-wrap flex-sm-nowrap text-center text-sm-start ">
+                <div class="flex-grow-1 align-self-center">
+                    <div class="fw-bolder fs-1 text-wrap m-2 m-sm-5">Make more time for the work that matters most</div>
+                    <div class="m-2 m-sm-5 text-secondary"><small>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium corrupti labore eaque, tempore sit at cum nisi.</small></div>
+                    <div class="btn m-2 mx-sm-5 btn-primary rounded-pill">Get Started <small class="text-white-50">- for free!</small></div>
+                </div>
+                <div class="heroimg"></div>
+            </div>
+        </section>
+        <section class="sponsors d-flex flex-wrap flex-column flex-sm-row flex-sm-nowrap justify-content-center align-items-center">
+                <div class="logo1 m-0 mx-sm-4"></div>
+                <div class="logo2 m-0 mx-sm-4"></div>
+                <div class="logo3 m-0 mx-sm-4"></div>
+                <div class="logo4 m-0 mx-sm-4"></div>
+        </section>
+        <section  class="m-4">
+            <div class="d-flex flex-column justify-content-center">
+
+                <div class="subtitle text-primary px-3 py-2 fs-6 rounded-pill m-auto ">How it works</div>
+                <div class="fs-1 fw-bolder text-center my-5">Let's get started in 3 easy steps</div>
+                <div class="d-flex flex-column flex-sm-row flex-wrap justify-content-evenly align-items-center my-sm-5">
+                    <div class="card border-0">
+                        <div class="d-flex justify-content-center align-items-center bg-primary rounded-circle py-2" style="border-radius: 50%;">
+                        <span class="fa-solid fa-lightbulb text-white m-4" style="font-size:70px;margin:auto;"></span>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-title fw-bolder">Product Review</div>
+                            <div class="card-text text-wrap w-auto"><small class="tiny text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit.</small></div>
+                        </div>
+                    </div>
+                    <div class="card border-0">
+                        <div class="d-flex justify-content-center align-items-center bg-primary rounded-circle py-2" style="border-radius: 50%;">
+                        <span class="fa-solid fa-pen text-white m-4" style="font-size:70px;margin:auto;"></span>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-title fw-bolder">Product Design</div>
+                            <div class="card-text text-wrap w-auto"><small class="tiny text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit.</small></div>
+                        </div>
+                    </div>
+                    <div class="card border-0">
+                        <div class="d-flex justify-content-center align-items-center bg-primary rounded-circle py-2" style="border-radius: 50%;">
+                        <span class="fa-solid fa-display text-white m-4" style="font-size:70px;margin:auto;"></span>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-title fw-bolder">Product Checkup</div>
+                            <div class="card-text text-wrap w-auto"><small class="tiny text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit.</small></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="m-4">
+            <div class="d-flex flex-column justify-content-center align-items-center">
+            <div class="fs-6 text-primary text-center subtitle rounded-pill px-3 py-2" style="margin: auto;">Services</div>
+            <div class="fs-1 m-3 fw-bolder text-center">Best Web Services For Effective Business</div>
+            <div class="d-flex w-100 flex-column flex-sm-row align-items-center text-center text-sm-start">
+                <div class="serviceimg flex-grow-1 flex-shrink-0"></div>
+                <div class="d-flex flex-column m-5">
+                    <div class="fs-2 fw-bold text-sm-start">
+                        <div class="fa-solid fa-code fa-float"></div> Web Apps Development
+                    </div>
+                    <small class="text-secondary text-center text-sm-start">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est accusamus et possimus, aspernatur laborum quaerat nobis molestias reprehenderit corporis fuga aliquam doloremque, ut a maiores, ad deleniti aut voluptates accusantium.</small>
+                    
+
+                    <br>
+                    <div class="fs-2 fw-bold text-sm-start">
+                        <div class="fa-solid fa-code fa-float"></div> Desktop App Development
+                    </div>
+                    <small class="text-secondary text-center text-sm-start">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est accusamus et possimus, aspernatur laborum quaerat nobis molestias reprehenderit corporis fuga aliquam doloremque, ut a maiores, ad deleniti aut voluptates accusantium.</small>
+                    
+
+                </div>
+                
+            </div>
+            </div>
+        </section>
+        <section class="m-4">
+            <div class="d-flex flex-column">
+                <div class="subtitle text-primary m-auto rounded-pill text-center px-3 py-2 ">Pricing</div>
+                <div class="d-flex flex-column flex-sm-row justify-content-evenly gap-3 m-5">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-title text-center fs-1 fw-bolder border-3">Starter</div>
+                            <div class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet molestias exercitationem reprehenderit, libero dolorum minus at <hr>
+                            <div class="fs-1 text-primary text-center fw-bolder">30$</div>
+                        <hr>
+                        <ul>
+                            <li>one <small class="text-secondary">w</small></li>
+                            <li>two <small class="text-secondary">w</small></li>
+                            <li>three <small class="text-secondary">w</small></li>
+                            <li>four <small class="text-secondary">w</small></li>
+                            
+                        </ul>    
+                        <div class="d-flex w-100 justify-content-center align-items-center">
+                        <div class="btn btn-primary rounded-pill px-5">buy now !</div>
+                        </div>
+                        </div>
+
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body border border-primary">
+                            <div class="card-title text-center fs-2 fw-bolder">Personal</div>
+                            <div class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet molestias exercitationem reprehenderit, libero dolorum minus at <hr>
+                            <div class="fs-1 text-primary text-center fw-bolder">50$</div>
+                        <hr>
+                        <ul>
+                            <li>one <small class="text-secondary">w</small></li>
+                            <li>two <small class="text-secondary">w</small></li>
+                            <li>three <small class="text-secondary">w</small></li>
+                            <li>four <small class="text-secondary">w</small></li>
+                            
+                        </ul>    
+                        </div>
+                        <div class="d-flex w-100 justify-content-center align-items-center">
+                        <div class="btn btn-primary rounded-pill px-5">buy now !</div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-title text-center fs-1 fw-bolder border-3">Pro</div>
+                            <div class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet molestias exercitationem reprehenderit, libero dolorum minus at <hr>
+                            <div class="fs-1 text-primary text-center fw-bolder">150$</div>
+                        <hr>
+                        <ul>
+                            <li>one <small class="text-secondary">w</small></li>
+                            <li>two <small class="text-secondary">w</small></li>
+                            <li>three <small class="text-secondary">w</small></li>
+                            <li>four <small class="text-secondary">w</small></li>
+                            
+                        </ul>
+                        </div>
+                            <div class="d-flex w-100 justify-content-center align-items-center">
+                        <div class="btn btn-primary rounded-pill px-5">buy now !</div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="m-4">
+            <div class="d-flex flex-column">
+                <div class="m-auto subtitle text-primary px-3 py-2 rounded-pill">Developer</div>
+                <div class="card mx-auto my-3 border-none d-flex flex-column justify-content-center align-items-center">
+                    <div class="card-img-top"></div>
+                    <div class="card-body">
+                        <div class="card-title fs-5 fw-bolder">Mohamed Elemary</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="border-top">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-3">
+                <div class="fs-4 fw-bolder text-center text-sm-start">Hamoda Elemary</div>
+                <small class="text-secondary">Developer  Programmer  Friend</small>
+                </div>
+                <div class="col-9">
+                    <div class="d-flex justify-content-evenly align-items-center">
+                        <ul>
+                            <li><a>link test</a></li>
+                            <li><a>link test</a></li>
+                            <li><a>link test</a></li>
+                            <li><a>link test</a></li>
+                        </ul>
+                        <ul>
+                            <li><a>link test</a></li>
+                            <li><a>link test</a></li>
+                            <li><a>link test</a></li>
+                            <li><a>link test</a></li>
+                        </ul>
+                        <ul>
+                            <li><a>link test</a></li>
+                            <li><a>link test</a></li>
+                            <li><a>link test</a></li>
+                            <li><a>link test</a></li>
+                        </ul>
+                        
+                    </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
